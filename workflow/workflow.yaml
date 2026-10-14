@@ -1,0 +1,6 @@
+local-simulation:
+  user-workflow:
+    workflow-name: evidence-bridge
+  workflow-artifacts:
+    workflow-path: ./main.ts
+    config-path: ./config.json
