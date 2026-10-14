@@ -1,0 +1,21 @@
+{
+  "name": "evidence-bridge-cre",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "start": "node server.mjs",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@chainlink/cre-sdk": "1.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "typescript": "5.9.3"
+  },
+  "optionalDependencies": {
+    "@oven/bun-windows-x64": "1.4.3"
+  }
+}
